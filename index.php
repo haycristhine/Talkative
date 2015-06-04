@@ -10,8 +10,6 @@
         <title>Login</title>
         <link rel="icon" type="image/png" href="assets/image/favicon.png">
         <script type="text/javascript" src="assets/js/script_login.js"></script>
-
-
     </head>
 
     <body>
@@ -43,9 +41,13 @@
         </div>
     </div>
 
-    <div id="barra_inferior">
+    <div id="bottom_bar">
+        <div id="barra_inferior">
+            <div id="text_bottom_bar">© 2015 Haycristhine's Head and Patience</div>
+        </div>
 
     </div>
+
 
 
     </body>

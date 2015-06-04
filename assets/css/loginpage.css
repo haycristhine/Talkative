@@ -39,8 +39,12 @@ body, input, button {
 #bottom_bar{
     display: inline-block;
     width: 100%;
-    margin-bottom: -10px;
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
 }
+
 
 #text_bottom_bar{
     opacity: 1;
@@ -54,7 +58,7 @@ body, input, button {
 #barra_inferior{
     opacity: 0.75;
     background-color: black;
-    vert-align: bottom;
+    vertical-align: bottom;
     height: 35px;
     margin-top: 6%;
     width: 100%;

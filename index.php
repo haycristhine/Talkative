@@ -43,6 +43,15 @@
 
     <div id="bottom_bar">
         <div id="barra_inferior">
+            <div id="icons">
+                <a href="https://www.facebook.com/hayde.cristhine">
+                    <img src="assets/image/icon_f.png" style="height: 35px;"/>
+                </a>
+               <a href="https://twitter.com/haycristhine">
+                   <img src="assets/image/icon_t.png" style="height: 35px;"/>
+               </a>
+
+            </div>
             <div id="text_bottom_bar">© 2015 Haycristhine's Head and Patience</div>
         </div>
 

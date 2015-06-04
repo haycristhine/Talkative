@@ -27,6 +27,11 @@ body, input, button {
     src: url('../fonts/Capture_it.ttf');
 }
 
+#icons{
+    display: inline-block;
+    padding-left: 10px;
+}
+
 
 #titulo{
     font-family: 'Capture';
@@ -48,6 +53,7 @@ body, input, button {
 
 #text_bottom_bar{
     opacity: 1;
+    font: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
     color: white;
     width: 70%;
     float: right;
@@ -96,7 +102,7 @@ body, input, button {
 }
 .login form .input-group span i {
     font-size: 1.5em;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.8);
 }
 .login form input.form-control {
     display: block;

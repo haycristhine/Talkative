@@ -5,8 +5,13 @@
     <head>
         <meta http-equiv = "Content-Type" content = "text/html;charset=utf-8"/>
         <link type="text/css" rel="stylesheet" href="assets/css/loginpage.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
         <title>Login</title>
         <link rel="icon" type="image/png" href="assets/image/favicon.png">
+        <script type="text/javascript" src="assets/js/script_login.js"></script>
+
+
     </head>
 
     <body>
@@ -26,10 +31,22 @@
                     <input type="password" class="form-control" placeholder="Password">
                 </div>
 
+                <div class="input-group input-group-lg" id="confirm_password">
+                    <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                    <input type="password" class="form-control" placeholder="Confirm Password">
+                </div>
+
+
                 <button type="submit" class="float">Login</button>
-                <button type="submit" class="float">New Account</button>
+                <button type="submit" id="btnNewAccount" class="float">New Account</button>
             </form>
         </div>
     </div>
+
+    <div id="barra_inferior">
+
+    </div>
+
+
     </body>
 </html>

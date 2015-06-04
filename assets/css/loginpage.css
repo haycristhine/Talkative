@@ -30,16 +30,28 @@ body, input, button {
 #titulo{
     font-family: 'Capture';
     font-size: 5em;
-    margin-left: 30px;
+    padding-left: 2%;
+    float: initial;
     color: white;
-    margin-bottom: -20px; 
+}
+
+
+
+#barra_inferior{
+    opacity: 0.75;
+    border: 1px dashed white;
+    background-color: black;
+    vert-align: bottom;
+    height: 35px;
+    margin-top: 6%;
+    width: 100%;
 }
 
 .login {
     padding: 15px;
     width: 400px;
     min-height: 400px;
-    margin: 10% auto 0 auto;
+    margin: 4% auto 0 auto;
 }
 .login .heading {
     text-align: center;
@@ -89,7 +101,7 @@ body, input, button {
 }
 .login form button {
     margin-top: 20px;
-    background: #27AE60;
+    background: #3333CC;
     border: none;
     font-size: 1.6em;
     font-weight: 300;
@@ -97,10 +109,10 @@ body, input, button {
     width: 100%;
     border-radius: 3px;
     color: #b3eecc;
-    border-bottom: 4px solid #1e8449;
+    border-bottom: 4px solid #3238CC;
 }
 .login form button:hover {
-    background: #2fb166;
+    background: #3224CC;
     -webkit-animation: hop 1s;
     animation: hop 1s;
 }

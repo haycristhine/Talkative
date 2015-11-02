@@ -22,6 +22,11 @@ body, input, button {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+img:focus, img:hover, img:active {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+}
+
 @font-face {
     font-family: 'Capture';
     src: url('../fonts/Capture_it.ttf');
@@ -32,6 +37,20 @@ body, input, button {
     padding-left: 10px;
 }
 
+#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url('assets/image/Sway.jpg') no-repeat;
+    background-size: cover;
+}
 
 #titulo{
     font-family: 'Capture';
@@ -50,15 +69,20 @@ body, input, button {
     left: 0;
 }
 
+#text_bottom_bar a{
+    color: white;
+}
+
 
 #text_bottom_bar{
     opacity: 1;
     font: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
     color: white;
     width: 70%;
+    font-size: 14px;
     float: right;
-    padding-left: 50%;
-    padding-top: 0.75%;
+    padding-left: 34%;
+    padding-top: 0.6%;
 }
 
 #barra_inferior{
@@ -68,6 +92,10 @@ body, input, button {
     height: 35px;
     margin-top: 6%;
     width: 100%;
+}
+
+#loginbuttons {
+    display: flex;
 }
 
 .login {
@@ -124,18 +152,21 @@ body, input, button {
 }
 .login form button {
     margin-top: 20px;
-    background: #3333CC;
+    background: black;
     border: none;
     font-size: 1.6em;
     font-weight: 300;
     padding: 5px 0;
     width: 100%;
     border-radius: 3px;
-    color: #b3eecc;
-    border-bottom: 4px solid #3238CC;
+    color: white;
+    border-bottom: 4px solid black;
+    margin-left: 5px;
+    opacity: 0.8;
 }
 .login form button:hover {
-    background: #3224CC;
+    background: black;
+    opacity: 0.9;
     -webkit-animation: hop 1s;
     animation: hop 1s;
 }
